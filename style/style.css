@@ -50,7 +50,7 @@
 
    border-radius: 16px;
    background: rgba(13, 19, 33, 0.02);;
-   margin: 80px 97px;
+   margin: 40px 97px;
 
  }
 
@@ -77,6 +77,8 @@
    gap: 40px;
    justify-content: space-between;
    padding: 48px;
+   margin-top: 0;
+   padding-top: 0;
 
  }
 
@@ -93,3 +95,33 @@
       opacity: 0.7;
 
  }
+
+ /* frame style */
+
+ .frame{
+   box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.2);
+   border-radius: 16px;
+   align-items: center;
+   text-align: center;
+   
+   
+ }
+
+ .frame1{
+   color: rgb(13, 19, 33);
+   font-size: 800;
+   line-height: 35px;
+   text-align: center;
+   margin-bottom: 24px;
+ 
+} 
+ 
+.frame2{
+   color: rgb(13, 19, 33);
+   text-align: center;
+   opacity: 0.7;
+   margin: 24px 0px;
+   
+}
+
