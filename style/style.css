@@ -104,9 +104,10 @@
    border-radius: 16px;
    align-items: center;
    text-align: center;
-   
-   
+   margin: 90px; 
+   padding: 0;
  }
+ 
 
  .frame1{
    color: rgb(13, 19, 33);
@@ -124,4 +125,66 @@
    margin: 24px 0px;
    
 }
+
+/* skills style */
+
+.sectiion-line-text-center{
+   font-size: 32px;
+   font-weight: 800;
+   text-align: center;
+}
+
+.section-description{
+   text-align: center;
+}
+
+
+
+.skills-container{
+   display: flex;
+   margin: 90px
+   
+}
+
+
+.skill{
+   background: rgba(255, 76, 30, 0.05);
+   border-radius: 16px;
+   margin-right: 24px;
+}
+
+.skill-title{
+   color: rgb(13, 19, 33) ;
+   font-size: 24px;
+   font-weight: 800;
+   line-height: 35px;
+   text-align: left;
+   margin: 8px 0px;
+}
+
+.skill-description{
+   color: rgb(13, 19, 33);
+   line-height: 25px;
+   text-align: left;
+   opacity: 0.7;
+}
+
+.skill-learn-btn{
+   text-align: left;
+}
+
+.skill1{
+   background: rgba(0, 76, 232, 0.05);
+   border-radius: 16px;
+   margin-right: 24px;
+
+}
+
+.skill2{
+   background: rgba(255, 223, 0, 0.05);
+   border-radius: 16px;
+   
+}
+   
+
 
