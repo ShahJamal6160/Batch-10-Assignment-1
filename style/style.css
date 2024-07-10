@@ -4,6 +4,7 @@
     font-style: normal;
   }
 
+  /* poster style */
   .poster{
     background-image: url("../assets_10/Hero-bg.png");
     width: 100%;
@@ -41,3 +42,30 @@
     border-radius: 8px;
  
  }
+
+ /* banner style */
+
+ .banner{
+
+   border-radius: 16px;
+   background: rgba(13, 19, 33, 0.02);;
+
+ }
+
+ .banner-title{
+   font-size: 32px;
+   font-weight: 800;
+   line-height: 35px;
+   text-align: center;
+   margin-top: 154px;
+
+ }
+
+ .banner-sub-title{
+   line-height: 26px;
+   text-align: center;
+   opacity: 0.7;
+   margin-bottom: 48px;
+ }
+
+ /* banner-1 style */
