@@ -128,7 +128,7 @@
 
 /* skills style */
 
-.sectiion-line-text-center{
+.section-line-text-center{
    font-size: 32px;
    font-weight: 800;
    text-align: center;
@@ -136,6 +136,7 @@
 
 .section-description{
    text-align: center;
+   margin: 90px;
 }
 
 
@@ -246,13 +247,27 @@
 .btn-container{
    width: 120px;
    height: 58px;
-   
 
 }
 
+.commit-container{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   flex-direction:;
+   margin: 105px;
+}
 
+nav ul{
+   display: flex;
+   align-items: center;
+}
 
-
+nav ul li{
+   list-style: none;
+   margin-right: 20px;
+   
+}
 
 
 
