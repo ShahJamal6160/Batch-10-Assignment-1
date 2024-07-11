@@ -9,11 +9,23 @@
    padding: 0;
  }
 
+.container{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   position: fixed;
+   width: 90%;
+   margin-left: 30px;
+}
+
+
+
   /* poster style */
   .poster{
     background-image: url("../assets_10/Hero-bg.png");
     width: 100%;
     align-items: center;
+    margin-top: 20px;
 
   }
 
